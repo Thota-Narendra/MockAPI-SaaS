@@ -1,0 +1,14 @@
+# Dependency Directories
+venv/
+**/node_modules/
+
+# Python Build Artifacts
+__pycache__/
+*.pyc
+
+# Local Environment & Secrets
+.env
+*.sqlite3
+db.sqlite3
+/backend/manager-api/.env
+/backend/mock-engine/.env
